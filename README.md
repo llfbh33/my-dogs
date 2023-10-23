@@ -44,10 +44,10 @@ A webpage about my dogs
 <br><br>
 - Step one necessary for this project -
 <ul>
-    <li>draw the layout for each of your pages (framework)</li>
-    <li>mark appropriate HTML tags for each item on the page</li>
-    <li>select two different fonts - one for text and one for headers</li>
-    <li>pick a color palette and write down hex codes</li>
+    <li>draw the layout for each of your pages (framework)  -   </li>
+    <li>mark appropriate HTML tags for each item on the page    -   </li>
+    <li>select two different fonts - one for text and one for headers   -   </li>
+    <li>pick a color palette and write down hex codes   -   </li>
     <ul>
         <li>search for "website color palette generator" for help</li>
     </ul>
