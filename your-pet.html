@@ -23,9 +23,42 @@
                     <input type="text" id="pet-name" name="pet_name">
                 </div>
 
-                <div class="type">
-                    <label for="pet-type">What type of animal are they?</label>
-                    <input type="checkbox" id="pet-type">
+                <div class="species">
+                    <label for="petType" class="pet-type">What is the species of your pet?</label>
+                    <select id="petType" name="pet_type" class="pet-select">
+                        <option disabled selected value></option>       <!--allows the field to stay blank until a viable option is chosen-->
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="bunny">Bunny</option>
+                        <option value="gerbil">Gerbil</option>
+                        <option value="rat">Rat</option>
+                        <option value="mouse">Mouse</option>
+                        <option value="Horse">Horse</option>
+                        <option value="turtle">Turtle</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="breed">
+                    <label for="pet-breed">What is the breed of your pet?</label>
+                    <input type="text" id="pet-breed" name="pet_breed">
+                </div>
+
+                <div class="about">
+                    <label for="pet-bio">Tell me about your pet!</label>
+                    <textarea id="pet-bio" name="pet_bio"></textarea>
+                </div>
+
+                <div class="check">
+                    <label for="check-b">I'm not sure</label>
+                    <input type="checkbox" id="check-b" name="check_b">
+                </div>
+
+                <div class="button">
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </fieldset>
+    </main>
+</body>
