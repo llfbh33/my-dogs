@@ -18,7 +18,7 @@ A webpage about my dogs
             <li>1 fieldset</li>
             <li>3 inputs</li>
             <ul>
-                <li>2 test</li>
+                <li>2 text</li>
                 <li>1 checkbox</li>
             </ul>
             <li>1 textarea</li>
