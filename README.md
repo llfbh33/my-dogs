@@ -49,7 +49,7 @@ A webpage about my dogs
     <li>select two different fonts - one for text and one for headers   -   </li>
     <li>pick a color palette and write down hex codes   -   </li>
     <ul>
-        <li>search for "website color palette generator" for help</li>
+        <li>search for "website color palette generator" for help   -   </li>
     </ul>
     <li>don't write any CSS yet, organize these graphical elements into classes, mark which classes goes with each HTML element</li>
 </ul>
