@@ -6,26 +6,26 @@
 </head>
 <body>
     <header>
-        <nav class="navigation">
-            <a href="dogs.html" id="main-page">Main Page</a>
-            <a href="dog-photos.html" id="dog-photos">Dog Photoshoot</a>
-            <a href="breeds.html" id="dog-breeds">About the Breeds</a>
-            <a href="your-pet.html" id="user-pet">Your Pet</a>
+        <nav>
+            <a href="dogs.html" id="main-page"><strong>Main Page</strong></a>
+            <a href="dog-photos.html" id="dog-photos"><strong>Dog Photoshoot</strong></a>
+            <a href="breeds.html" id="dog-breeds"><strong>About the Breeds</strong></a>
+            <a href="your-pet.html" id="user-pet"><strong>Your Pet</strong></a>
         </nav>
     </header>
 
     <main>
         <fieldset>
-            <legend>Tell Me About Your Pet!</legend>
+            <legend class="title intro">Tell Me About Your Pet!</legend>
             <form>
                 <div class="name">
-                    <label for="pet-name">What is your pets name?</label>
-                    <input type="text" id="pet-name" name="pet_name">
+                    <label for="pet-name" class="name block">What is your pets name?</label>
+                    <input type="text" id="pet-name" class="block-2" name="pet_name">
                 </div>
 
                 <div class="species">
-                    <label for="petType" class="pet-type">What is the species of your pet?</label>
-                    <select id="petType" name="pet_type" class="pet-select">
+                    <label for="petType" class="pet-type block">What is the species of your pet?</label>
+                    <select id="petType" name="pet_type" class="pet-select block-2">
                         <option disabled selected value></option>       <!--allows the field to stay blank until a viable option is chosen-->
                         <option value="dog">Dog</option>
                         <option value="cat">Cat</option>
@@ -41,18 +41,18 @@
                 </div>
 
                 <div class="breed">
-                    <label for="pet-breed">What is the breed of your pet?</label>
-                    <input type="text" id="pet-breed" name="pet_breed">
+                    <label for="pet-breed" class="block">What is the breed of your pet?</label>
+                    <input type="text" id="pet-breed" class="block-2" name="pet_breed">
                 </div>
 
                 <div class="about">
-                    <label for="pet-bio">Tell me about your pet!</label>
-                    <textarea id="pet-bio" name="pet_bio"></textarea>
+                    <label for="pet-bio" class="block">Tell me about your pet!</label>
+                    <textarea id="pet-bio" class="texta" name="pet_bio"></textarea>
                 </div>
 
                 <div class="check">
-                    <label for="check-b">I'm not sure</label>
-                    <input type="checkbox" id="check-b" name="check_b">
+                    <label for="check-b" class="block">Receive a weekly news letter</label>
+                    <input type="checkbox" id="check-b" class="block-2" name="check_b">
                 </div>
 
                 <div class="button">

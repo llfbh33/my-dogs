@@ -8,3 +8,221 @@
        #9faf66
        #d2d07a
        #e7dfa5 */
+
+/* Classes and elements */
+    /* dogs.html
+        - "intro" - div
+        - "title" - h1
+        - "main-ph" - p
+        - "pax-intro" - div
+        - "meet" - div
+        - "meet-t" - div
+        - "bio" - div
+        - "syl-intro" - div
+        - "phen-intro" - div
+    /* dog-photos.html
+        - "pictures" - div
+        - "pic-box" - div
+        - "pl" - label (picture label)
+        - "pic" - img
+        -
+
+
+/* Entire page */
+body {
+    background-color: #d2d17a98;
+    margin: 0px;                        /* Removes the margin around the page, so the nav bar can span the width and top of the page */
+}
+
+/* Section is for the nav bar */
+nav {
+    font-size: 22px;                    /* sets the font size within the nav bar */
+    text-align: center;                 /* horizontally centers the nav buttons */
+    color: #1c2427;                     /* Sets the text color */
+    height: 30px;                       /* Sets the height of the nav bar */
+    padding: 30px;                      /* add padding within the border to move elements to the middle of the nav bar */
+    background-color: #9faf663f;    /* set background color */
+}
+
+#main-page,
+#dog-photos,
+#dog-breeds,
+#user-pet {
+    height: 50px;
+    padding: 0px 40px 0;
+    width: 0 auto;
+}
+
+/* Section is for header and main paragraph */
+.intro {
+    text-align: center;
+    color: #1c2427;
+}
+
+.title {
+    margin-top: 60px;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+.main-ph {
+    font-size: 20px;
+    margin: 50px 100px 50px;
+    font-family: monospace;
+}
+
+/* Section is for dog intro */
+.pax-intro,
+.syl-intro,
+.phen-intro {
+    display: inline-flex;
+    margin: 30px 10px 30px;
+    border: solid #d2d07a 5px;
+}
+
+#pax-1 {
+    height: 30%;
+    width: 30%;
+}
+
+#syl-1 {
+    height: 38%;
+    width: 38%;
+}
+
+#phen-1 {
+    height: 430px;
+    width: 450px
+}
+
+.meet {
+    display: block;
+}
+
+.meet-t {
+    margin: 35px;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.bio {
+    margin: 0 60px 20px;
+    font-size: 18px;
+    font-family: monospace;
+    color: black;
+}
+
+/* Section for dog pics page */
+.pictures {
+    display: grid;
+    grid-template-columns: 33.33% 33.34% 33.37%;
+    grid-template-rows: 60% 60%;
+    justify-content: space-evenly;              /* Evens out the boxes of the grid so they space evenly */
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.pic-box {
+    display: block;
+    text-align: center;
+    margin: 15px;
+    border: solid #d2d07a 2px;
+}
+
+.pic {
+    display: block;
+    padding: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#pic-1 {                    /* Needed to adjust the size of each individual pic to fit properly */
+    height: 75%;
+    width: 50%;
+}
+
+#pic-2 {
+    height: 75%;
+    width: 75%;
+}
+
+#pic-3 {
+    height: 75%;
+    width: 75%;
+}
+
+#pic-4 {
+    height: 70%;
+    width: 70%;
+}
+
+#pic-5 {
+    height: 60%;
+    width: 75%;
+}
+
+#pic-6 {
+    height: 65%;
+    width: 65%;
+}
+
+/* Dog Breeds Page */
+.min-title {
+    font-family: cursive;
+    font-size: 22px;
+    margin-left: 40px;
+}
+
+.min-ph {
+    font-family: monospace;
+    font-size: 16px;
+    margin: 12px 70px 12px;
+}
+
+.mi {
+    font-family: monospace;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+/* Tell me about your pet page */
+fieldset {
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+    border: solid #d2d07a 4px;
+    border-radius: 20px;
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+.block {
+    display: block;
+    padding: 30px;
+    font-size: 28px;
+}
+
+.block-2 {
+    width: 400px;
+    height: 30px;
+}
+
+.check {
+    margin: 0 0 28px;
+    display: block;
+}
+
+.texta {
+    width: 400px;
+    height: 80px;
+}
+
+button {
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+}

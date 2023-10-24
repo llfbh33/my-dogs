@@ -51,7 +51,7 @@ A webpage about my dogs
     <ul>
         <li>search for "website color palette generator" for help   -   </li>
     </ul>
-    <li>don't write any CSS yet, organize these graphical elements into classes, mark which classes goes with each HTML element</li>
+    <li>don't write any CSS yet, organize these graphical elements into classes, mark which classes goes with each HTML element - </li>
 </ul>
 <br><br>
 - Step two necessary for this project -
